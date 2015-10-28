@@ -8,6 +8,14 @@ use Illuminate\Support\ServiceProvider;
 class AuthServiceProvider extends ServiceProvider
 {
     /**
+     * {@inheritdoc}
+     */
+    public function register()
+    {
+        //
+    }
+
+    /**
      * Perform post-registration booting of services.
      *
      * @return void
