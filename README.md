@@ -9,7 +9,7 @@ It does not support to reset password by email and new user registration.
 
 ## Installation
 
-1. Run `composer require alex-rad/laravel-ldap-credentials` to install package.
+1. Run `composer require "alex-rad/laravel-ldap-credentials"` to install package.
 
 2. Add LdapCredentials Service Provider to the `config/app.php` configuration file.
 

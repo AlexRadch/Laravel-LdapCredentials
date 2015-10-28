@@ -30,5 +30,6 @@
         "psr-0": {
             "LdapCredentials\\Auth": "src/"
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
