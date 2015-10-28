@@ -14,9 +14,9 @@ class AuthServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        Auth::extend('databaseLdap', self::createDatabaseLdapProvider);
+        Auth::extend('databaseLdapCredentials', self::createDatabaseLdapProvider);
 
-        Auth::extend('eloquentLdap', self::createEloquentLdapProvider);
+        Auth::extend('eloquentLdapCredentials', self::createEloquentLdapProvider);
     }
 
     /**
