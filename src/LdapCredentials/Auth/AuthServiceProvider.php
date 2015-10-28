@@ -22,9 +22,13 @@ class AuthServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        Auth::extend('databaseLdapCredentials', self::createDatabaseLdapProvider);
+        Auth::extend('databaseLdapCredentials', function($app) {
+            return self::createDatabaseLdapProvider($app);
+        });
 
-        Auth::extend('eloquentLdapCredentials', self::createEloquentLdapProvider);
+        Auth::extend('eloquentLdapCredentials', function($app) {
+            return self::createEloquentLdapProvider($app);
+        });
     }
 
     /**
