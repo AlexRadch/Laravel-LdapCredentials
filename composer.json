@@ -2,7 +2,7 @@
     "name": "alex-rad/laravel-ldap-credentials",
     "description": "Extends Database and Eloquent User Authentication Providers (Laravel framework) to validate credentials (email and password) in LDAP",
     "homepage": "https://github.com/AlexRadch/Laravel-LdapCredentials",
-    "keywords": ["laravel", "ldap", "user", "authentication", "credentials"],
+    "keywords": ["laravel", "ldap", "user", "authentication", "provider", "credentials"],
     "license": "MIT",
     "authors": [
         {
@@ -10,21 +10,12 @@
             "email": "radchenkosasha@gmail.com"
         }
     ],
-    "require": {
-        "php": ">=5.4.0",
-        "illuminate/support": "5.*",
-        "intervention/image": "2.*",
-        "intervention/imagecache": "2.*",
-        "doctrine/dbal": "~2.3",
-        "sleeping-owl/with-join": "1.*",
-        "illuminate/html": "~5.0"
-    },
     "support": {
         "issues": "https://github.com/AlexRadch/Laravel-LdapCredentials/issues"
     },
     "require": {
         "php": ">=5.5",
-        "laravel/framework": ">=5.1"
+        "laravel/framework": "^5.1"
     },
     "autoload": {
         "psr-0": {
