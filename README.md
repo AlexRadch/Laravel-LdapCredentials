@@ -55,6 +55,10 @@ It does not support to reset password by email and new user registration.
     ``` php
     'driver' => 'eloquentLdapCredentials',
     ```
+    or
+    ``` php
+    'driver' => 'eloquentLdapCredentials',
+    ```
 
 6. Remove reset password by email and new user registration functions from 
     application.
